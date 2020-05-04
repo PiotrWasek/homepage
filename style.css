@@ -3,7 +3,7 @@ nav  {
 }
 
    div{
-       background-color: rgb(26, 24, 24);
+       background-color: rgb(14, 13, 13);
    } 
 
    h1{
@@ -24,7 +24,7 @@ footer{
 header{
     font-size: 80px;
     text-align: center;
-    color:rgb(128, 8, 8)
+    color:rgb(189, 27, 27)
    }
 
 img {
@@ -32,7 +32,7 @@ img {
 }
 
 .blue {
-    color: rgb(41, 56, 138);
+    color: rgb(41, 59, 160);
     font-size: 1cm;
     padding-left: 100px;
     

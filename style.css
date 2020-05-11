@@ -1,58 +1,52 @@
-nav  {
-    display: inline-block;
+nav {
+  display: inline-block;
 }
 
-   div{
-       background-color: rgb(14, 13, 13);
-   } 
+div {
+  background-color: rgb(14, 13, 13);
+}
 
-   h1{
-       font-size: 80px;
-   }
+h1 {
+  font-size: 80px;
+}
 body {
-    
-    background-color: rgb(148, 143, 148);  
+  background-color: rgb(148, 143, 148);
 }
 
-footer{
-    text-align: center;
+footer {
+  text-align: center;
 }
-.nav{
-    font-size: 20px;
+.nav {
+  font-size: 20px;
 }
 
-header{
-    font-size: 80px;
-    text-align: center;
-    color:rgb(189, 27, 27)
-   }
+header {
+  font-size: 80px;
+  text-align: center;
+  color: rgb(189, 27, 27);
+}
 
 img {
-    
-    
-    
 }
 
 .blue {
-    color: rgb(41, 59, 160);
-    font-size: 1cm;
-    padding-left: 100px;
-    
+  color: rgb(41, 59, 160);
+  font-size: 1cm;
+  padding-left: 100px;
 }
 
-.green{
-    color: rgb(62, 230, 47);
+.green {
+  color: rgb(62, 230, 47);
 }
-.whitesmoke{
-    color: whitesmoke;
-    margin-left: 1cm;
+.whitesmoke {
+  color: whitesmoke;
+  margin-left: 1cm;
 }
 
 nav a {
-    color: white;
-    
+  color: white;
 }
 
 a {
-    color: yellow;
+  color: yellow;
 }

@@ -9,27 +9,31 @@
 
   <body>
     <header>
-      <div class="nav">
-        <nav><a href="index.html">strona główna</a></nav>
-        <nav><a href="nauka-html.html">nauka html</a></nav>
-        <nav><a href="nauka-css.html">nauka css</a></nav>
-        <nav><a href="nauka-JavaScript.html">nauka JavaScript</a></nav>
-      </div>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >strona główna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">nauka html</a>
+        <a class="navigation__link" href="nauka-css.html">nauka css</a>
+        <a class="navigation__link" href="nauka-JavaScript.html"
+          >nauka Java script</a
+        >
+      </nav>
     </header>
     <br />
 
-    <main>
-      <header>
+    <main class="main">
+      <header class="header header--js">
         <h1>WTF - co ten frontend?</h1>
       </header>
       <img src="images.jpg" alt="images" />
 
       <section>
-        <h2 class="blue">Tydzień 1</h2>
-        <article>
-          <h3 class="whitesmoke">Tydzień organizacyjny.</h3>
+        <h2 class="second-header">Notatki</h2>
 
-          <p>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 1</h3>
+          <p class="week__description">
             Frontend odpowiada za wygląd stron / aplikacji internetowych oraz za
             ich interakcje z użytkownikiem. Jest generowany głównie przy użyciu
             trzech technologii: HTML, CSS i JavaScript. <br />
@@ -37,26 +41,22 @@
           </p>
         </article>
 
-        <h2 class="blue">Tydzień 2</h2>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 2</h3>
 
-        <article>
-          <h3 class="whitesmoke">
-            Warstwy strony internetowej:TREŚĆ, HTML, CSS,JAVA SCRIPT
-          </h3>
-
-          <p>
+          <p class="week__description">
             <a href="nauka-html.html">HTML</a> Opakowuje i opisuje treść strony
             - Mówi przeglądarce o strukturze dokumentu (i o tym co ma wczytać)
             Posiada swoją zdefiniowaną składnie - Nie jest językiem
             programowania, jest językiem znaczników.
           </p>
 
-          <p>
+          <p class="week__description">
             <a href="nauka-css.html">CSS</a> wpływa na wygląd elementów HTML na
             ekranie, wydrukach itp.
           </p>
 
-          <p>
+          <p class="week__description">
             <a href="nauka-JavaScript.html">JAVASCRIPT</a> Odpowiada za
             interakcje - Pozwala na programowanie we frontendzie - Potrafi
             wpływać na każdą z warstw - Rozszerza możliwości zwykłych stron -
@@ -65,76 +65,132 @@
           </p>
         </article>
 
-        <h2 class="blue">Tydzień 3</h2>
-
-        <article>
-          <h3 class="whitesmoke">
-            Kanban,terminal,klasy css,pierwsze kroki w JavaScript
-          </h3>
-          <p>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 3</h3>
+          <p class="week__description">
             Zapoznanie z techniką planowania pracy KANBAN.Na szkoleniu
             kirzystamy z serwisu TRELLO.
           </p>
-          <p>
+          <p class="week__description">
             Terminal - narzędzie pozwalające człowiekowi na pracę z komputerem
             lub systemem komputerowym.
           </p>
-          <p>
+          <p class="week__description">
             Klasy CSS - najlepiej dodawać klasy do wszystkich elementów i unikać
             zagnieżdżeń.Pozwoli to zachować porządek i uniknac problemow.
           </p>
 
-          <p>
+          <p class="week__description">
             JavaScript składa się z wartości, operacji porównywania, zmiennych,
             literałów,funkcji i obiektów.Wartości dla JavaScript sa jak liczby
             dla matematyki.
           </p>
         </article>
-
-        <h2 class="blue">Tydzień 4</h2>
-        <p>pozycjonowanie</p>
-
-        <h2 class="blue">Tydzień 5</h2>
-
-        <h2 class="blue">Tydzień 6</h2>
-
-        <h2 class="blue">Tydzień 7</h2>
-
-        <h2 class="blue">Tydzień 8</h2>
-
-        <h2 class="blue">Tydzień 9</h2>
-
-        <h2 class="blue">Tydzień 10</h2>
-
-        <h2 class="blue">Tydzień 11</h2>
-
-        <h2 class="blue">Tydzień 12</h2>
-
-        <h2 class="blue">Tydzień 13</h2>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 4</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 5</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 6</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 7</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 8</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 9</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 10</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 11</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 12</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 13</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
+        <article class="week">
+          <h3 class="week__summary">Tydzień 14</h3>
+          <p class="week__description">
+            treść
+          </p>
+        </article>
       </section>
-      <section>
-        <h3 class="green">Ciekawe linki:</h3>
+      <section class="link">
+        <h3 class="link__title">Ciekawe linki:</h3>
         <ul>
           <li>
-            <a href="https://www.canva.com/colors/color-wheel/"
+            <a
+              class="link__address"
+              href="https://www.canva.com/colors/color-wheel/"
               >dobieranie kolorów</a
             >
           </li>
 
-          <li><a href="https://htmlcheatsheet.com/css/">ściągawka css</a></li>
-
-          <li><a href="https://validator.w3.org/nu/#textarea">validator</a></li>
+          <li>
+            <a class="link__address" href="https://htmlcheatsheet.com/css/"
+              >ściągawka css</a
+            >
+          </li>
 
           <li>
             <a
+              class="link__address"
+              href="https://validator.w3.org/nu/#textarea"
+              >validator</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="link__address"
               href="https://dev.w3.org/html5/html-author/charref?fbclid=IwAR39eMOmIrGN2pjiQcy4kLGAp4QjEqyDgTTpgFiDKdYlkL0DqifbSf6fboU"
               >znaki specjalne</a
             >
           </li>
 
-          <li><a href="https://codepen.io/">codepen</a></li>
+          <li>
+            <a class="link__address" href="https://codepen.io/">codepen</a>
+          </li>
 
-          <li><a href="https://trello.com">kanban</a></li>
+          <li><a class="link__address" href="https://trello.com">kanban</a></li>
         </ul>
       </section>
     </main>

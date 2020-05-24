@@ -1,52 +1,76 @@
-nav {
-  display: inline-block;
-}
-
-div {
-  background-color: rgb(14, 13, 13);
-}
-
-h1 {
-  font-size: 80px;
+.header {
+  font-size: 50px;
+  color: rgb(185, 64, 64);
+  text-align: center;
 }
 body {
   background-color: rgb(148, 143, 148);
 }
 
+.second-header{
+  color: #00008b;
+}
 footer {
   text-align: center;
 }
-.nav {
-  font-size: 20px;
-}
 
-header {
-  font-size: 80px;
-  text-align: center;
-  color: rgb(189, 27, 27);
-}
 
-img {
-}
 
-.blue {
-  color: rgb(41, 59, 160);
-  font-size: 1cm;
-  padding-left: 100px;
-}
-
-.green {
+.links {
   color: rgb(62, 230, 47);
 }
-.whitesmoke {
-  color: whitesmoke;
-  margin-left: 1cm;
+
+.navigation {
+  position: fixed;
+   background: #ff0000;
+  border: #00008b 2px solid;
+  padding: 10px;
+}
+.navigation__link {
+  color: #ffffff;
+  margin-right: 20px;
+  display: inline-block;
 }
 
-nav a {
-  color: white;
+.navigation__link--homepage {
+  background: yellow;
+  color: #000;
+}
+.week{
+border: yellow solid 2px;
+background: #cac4ca;
+padding: 20px;
+margin: 10px;
 }
 
-a {
-  color: yellow;
+.week__summary{
+  color: rgb(24, 46, 241);
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.week__description{
+  color: #000;
+
+}
+.link{
+  border: tomato solid 2px;
+  color:yellow;
+  background-color: #807a80;
+  padding: 20px;
+  margin: 10px;
+}
+
+.link__address{
+  color: yellowgreen;
+
+}
+.link__title{
+
+}
+
+.main{
+  max-width: 1000px;
+  margin: 0 auto;
 }
